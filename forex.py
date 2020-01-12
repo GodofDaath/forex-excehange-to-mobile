@@ -3,13 +3,13 @@ from twilio.rest import Client
 import requests
 
 
-SID = 'AC5a9312e981d44381ca74fd4271d6dbae'
-auth_key='a89730dbffe4edd02374cb36c0d7facc'
-from_no = '+18723956098'
-to_no ='+918897620121'
+SID = 'SID_from_twilio_here'
+auth_key='AUTH_key_From Twilio
+from_no = 'number_by_twilio'
+to_no ='Ur_registered_number'
 print ("Flag 1")
 c = CurrencyRates()
-print ("Flag 2")
+//You can change the line below to your prefered exchange
 response = c.get_rate('USD','INR')
 print ("USD to INR exchange rate : "+str(response))
 
