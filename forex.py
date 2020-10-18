@@ -2,7 +2,6 @@ from forex_python.converter import CurrencyRates
 from twilio.rest import Client
 import requests
 
-
 SID = 'SID_from_twilio_here'
 auth_key='AUTH_key_From Twilio
 from_no = 'number_by_twilio'
